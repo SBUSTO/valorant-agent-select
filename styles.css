@@ -1,0 +1,24 @@
+header {
+    display: flex;
+}
+
+.title {
+ 
+}
+
+.v-logo {
+height: 70px;
+}
+
+nav {
+display: flex;
+float: right;
+}
+
+aside {
+
+}
+
+main {
+    text-align: center;
+}
