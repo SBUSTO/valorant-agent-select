@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded'), () => {
     const agentDisplay = document.getElementById('agentDisplay');
-    const agentImage = document.getElementById('agentImage')
-    const agentButton = document.getElementById('agentButton')
+    const agentImage = document.getElementById('agentImage');
+    const agentButton = document.getElementById('agentButton');
 }
 
 const agents = [

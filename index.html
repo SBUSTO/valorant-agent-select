@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
     <header>
@@ -38,31 +38,32 @@
         <section class="role-title">
         <img src="/images/ControllerClassSymbol.webp" class="role-logo" alt="controller logo">
         <h2>Controller</h2>
-        <button class="select-all">Select All</button>
-        <button class="unselect-all">Unselect All</button>
+        <button class="btn" id="select-all" onclick="filterObjects('all')">Select All</button>
+        <button class="btn" id="unselect-all" onclick="filterObjects('all')">Unselect All</button>
         </section>
-        <div class="agent-category">
+        <div class="objects">
         <img src="/images/Astra_icon.webp" class="agent-logo">
         <p class="agent">Astra</p>
-        <img src="/images/Breach_icon.webp" class="agent-logo">
-        <p class="agent">Brimstone</p>
         <img src="/images/Brimstone_icon.webp" class="agent-logo">
-        <p class="agent">Clove</p>
+        <p class="agent">Brimstone</p>
+        <img src="/images/Breach_icon.webp" class="agent-logo">
+        <p class="agent">Breach</p>
         <img src="/images/Clove_icon.webp" class="agent-logo">
-        <p class="agent">Harbor</p>
+        <p class="agent">Clove</p>
         <img src="/images/Harbor_icon.webp" class="agent-logo"> 
-        <p class="agent">Omen</p>
+        <p class="agent">Harbor</p>
         <img src="/images/Omen_icon.webp" class="agent-logo">
-        <p class="agent">Viper</p>
+        <p class="agent">Omen</p>
         <img src="/images/Viper_icon.webp" class="agent-logo">
+        <p class="agent">Viper</p>
         </div>
-        <section class="role-title">
+        <section class="objects">
             <img src="/images/SentinelClassSymbol.webp" class="role-logo" alt="sentinel logo">
         <h2>Sentinel</h2>
-        <button class="select-all">Select All</button>
-        <button class="unselect-all">Unselect All</button>
+        <button class="btn" id="select-all" onclick="filterObjects('all')">Select All</button>
+        <button class="btn" id="unselect-all" onclick="filterObjects('all')">Unselect All</button>
         </section>
-        <div class="agent-category">
+        <div class="objects">
         <img src="/images/Chamber_icon.webp" class="agent-logo">
         <p class="agent">Chamber</p>
         <img src="/images/Cypher_icon.webp" class="agent-logo">
@@ -74,13 +75,13 @@
         <img src="/images/Sage_icon.webp" class="agent-logo">
         <p class="agent">Sage</p>
         </div>
-      <section class="role-title">
+     <section class="objects">
         <img src="/images/InitiatorClassSymbol.webp" class="role-logo" alt="initiator logo">
         <h2>Initiator</h2>
-        <button class="select-all">Select All</button>
-        <button class="unselect-all">Unselect All</button>
+        <button class="btn" id="select-all" onclick="filterObjects('all')">Select All</button>
+        <button class="btn" id="unselect-all" onclick="filterObjects('all')">Unselect All</button>
       </section>
-      <div class="agent-category">
+      <div class="objects">
       <img src="/images/Breach_icon.webp" class="agent-logo">
       <p class="agent">Breach</p>
       <img src="/images/Fade_icon.webp" class="agent-logo">
@@ -97,10 +98,10 @@
       <section class="role-title">
         <img src="" class="role-logo" alt="duelist logo">
         <h2>Duelist</h2>
-        <button class="select-all">Select All</button>
-        <button class="unselect-all">Unselect All</button>
+        <button class="btn" id="select-all" onclick="filterObjects('all')">Select All</button>
+        <button class="btn" id="unselect-all" onclick="filterObjects('all')">Unselect All</button>
       </section>
-      <div class="agent-category">
+      <div class="objects">
       <img src="/images/Iso_icon.webp" class="agent-logo">
       <p class="agent">Iso</p>
       <img src="/images/Jett_icon.webp" class="agent-logo">
@@ -121,6 +122,6 @@
     <footer>
         <p>This is a fan-site for Valorant and it is not in any way associated with Riot Games</p>
     </footer>
-    <script src="index.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
