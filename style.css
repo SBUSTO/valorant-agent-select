@@ -24,8 +24,9 @@
     }
     
     .title {
-     color: white;
-     padding: 10px;
+    color: white;
+    padding: 20px;
+
     
     }
     
@@ -35,14 +36,26 @@
     }
     
     nav {
+        margin: 15px;
+        padding: 20px;
         right: 0;
         position: absolute;
+        color: white;
+        
     }
     
-    nav li a {
+    nav li {
         color: white;
         padding: 20px;
         margin: 20px;
+    }
+
+    nav:hover {
+        color: white;
+    }
+
+    nav:visited {
+        color: white;
     }
     
     aside {
@@ -104,6 +117,7 @@
     
     .role-logo {
         height: 40px;
+        margin: 13px;
     }
     
     .agent {
