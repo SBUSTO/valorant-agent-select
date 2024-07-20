@@ -21,5 +21,6 @@ document.getElementById('agentButton').addEventListener('click', function() {
         { name: 'Yoru', img: 'images/Yoru_icon.webp' }
     ];
     const randomAgent = agents[Math.floor(Math.random() * agents.length)];
-    document.getElementById('agentDisplay').textContent = 'Random Agent: ' + randomAgent;
+    document.getElementById('agentDisplay').textContent = 'Random Agent: ' + randomAgent.name;
 });
+
